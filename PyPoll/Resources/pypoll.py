@@ -1,7 +1,7 @@
 import os
 import csv
 
-election_data = ("python-challenge2\election_data.csv")
+election_data = ("PyPoll\Resources\election_data.csv")
 
 # Open the CSV file
 with open(election_data, newline="", encoding="utf-8") as csvfile:
