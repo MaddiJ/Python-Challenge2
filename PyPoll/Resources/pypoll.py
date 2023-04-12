@@ -1,7 +1,7 @@
 import os
 import csv
 
-election_data = r"C:\Users\jmsmi\OneDrive\Desktop\Projects\python-challenge\election_data.csv"
+election_data = ("python-challenge2\election_data.csv")
 
 # Open the CSV file
 with open(election_data, newline="", encoding="utf-8") as csvfile:
