@@ -5,15 +5,14 @@ import os, csv
 
 # declare the location for file using Pathlib
 
-input_file= os.path.join ("Module3Python", "Starter_Code ","Resources","budget_data.csv")
-csvpath = "./Resources/budget_data.csv"
+csvpath= os.path.join ("PyBank/Resources/budget_data.csv")
+
 
 #list your variables
 total_months=[]
 total_profit= []
 monthlyprofitchange= [] 
 
-csvpath = "./Resources/budget_data.csv"
 # Open csv in default read mode with context manager
 with open(csvpath, "r") as csvfile:
 
@@ -48,7 +47,7 @@ print(f"Greatest Increase in Profits: {total_months[max_increase_month]} (${(str
 print(f"Greatest Decrease in Profits: {total_months[max_decrease_month]} (${(str(max_decrease_value))})")
 #Output files
 # Output files
-output_file = "./Analysis/budget_analysis.csv"
+output_file = "PyBank/Analysis/financial_analysis.txt"
 with open(output_file,"w") as file:
 #Write methods to print to Financial_Analysis_Summary
 # Write methods to print to Financial_Analysis_Summary
