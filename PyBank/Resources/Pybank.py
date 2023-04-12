@@ -47,7 +47,7 @@ print(f"Greatest Increase in Profits: {total_months[max_increase_month]} (${(str
 print(f"Greatest Decrease in Profits: {total_months[max_decrease_month]} (${(str(max_decrease_value))})")
 #Output files
 # Output files
-output_file = "PyBank/Analysis/financial_analysis.txt"
+output_file = "Analysis/Financial_analysis.txt"
 with open(output_file,"w") as file:
 #Write methods to print to Financial_Analysis_Summary
 # Write methods to print to Financial_Analysis_Summary
